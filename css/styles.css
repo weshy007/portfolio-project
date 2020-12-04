@@ -38,6 +38,7 @@
 }
 body{
     background-color: #C9c9BD;
+    font: arial;
 }
 .projects{
     background-color: #878D92;
@@ -56,11 +57,13 @@ body{
     background-color: #849FAD;
 }
 .hobbies #quote{
-    position: absolute;
-    text-align:center;
-    width: 400px;
-    left: 60%;
-    float: right;
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    height: 40px;
+    background-color: #606B6F;
+    animation-name: quote;
+    animation-duration: 4s;
 }
 ul{
     list-style-type: none;
