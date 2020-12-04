@@ -41,6 +41,18 @@
     bottom: 0%;
     padding-bottom: 0%;
 }
+body{
+    background-color: #C9C9BD;
+}
+.story{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    left: 20%;
+}
+ul{
+    list-style-type: none;
+}
 #foot{
     bottom: 0%;
     position: absolute;
