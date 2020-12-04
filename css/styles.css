@@ -1,0 +1,22 @@
+#my-image{
+    height: 250px;
+    width: 250px;
+}
+.footer {
+    background-color: #333c3e;
+    bottom: 0%;
+}
+#foot{
+    bottom: 0%;
+    position: absolute;
+}
+.address{
+    left: 50%; 
+    position: absolute;
+    bottom: 0%;
+}
+.socials{
+    left: 70%; 
+    position: absolute;
+    bottom: -1%;
+}
