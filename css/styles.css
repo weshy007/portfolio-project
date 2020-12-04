@@ -48,27 +48,46 @@ body{
     text-align: center;
     width: 50%;
     position: absolute;
-    left: 10%;
+    left: 40%;
+    font-style: italic;
+    top: 6%;
+}
+.hobbies{
+    background-color: #849FAD;
+}
+.hobbies #quote{
+    position: absolute;
+    text-align:center;
+    width: 400px;
+    left: 60%;
+    float: right;
 }
 ul{
     list-style-type: none;
 }
-.footer {
-    background-color: #333c3e;
-    bottom: 0%;
-    padding-bottom: 0%;
-}
-#foot{
-    bottom: 0%;
-    position: absolute;
-}
-.address{
+.logo .address{
     left: 50%; 
     position: absolute;
     bottom: 0%;
 }
-.socials{
+.logo .socials{
     left: 70%; 
     position: absolute;
-    bottom: 0%;
+    bottom: 3%;
+}
+@media screen and (min-width: 480px){
+    body{
+        background-color: #C9c9BD;
+        color:black;
+        width: auto;
+        height: auto;
+    }
+}
+@media screen and (min-width: 1080px){
+    body{
+    background-color:#D8C6B4;
+        color:black;
+        width: auto;
+        height: auto;
+    }
 }
