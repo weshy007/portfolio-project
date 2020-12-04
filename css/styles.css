@@ -2,9 +2,44 @@
     height: 250px;
     width: 250px;
 }
+.container
+{
+	background: #faac77;
+	text-align: center;
+}
+.top-menu
+{
+	background-color: #faac77;
+    overflow: hidden;
+    padding: 0%;
+}
+.top-menu li
+{
+	list-style-type: none;
+	float: left;
+	border-right: solid 1px #fff;
+	padding: 6px 10px;
+}
+.top menu li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	padding: 6px 10px;
+}
+.top menu li:hoover
+{
+	background:#ac4f2e;
+}
+.top menu li.active
+{
+	background: #c60;
+}
 .footer {
     background-color: #333c3e;
     bottom: 0%;
+    padding-bottom: 0%;
 }
 #foot{
     bottom: 0%;
@@ -18,5 +53,5 @@
 .socials{
     left: 70%; 
     position: absolute;
-    bottom: -1%;
+    bottom: 0%;
 }
